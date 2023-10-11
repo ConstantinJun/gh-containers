@@ -2,7 +2,7 @@ name: Deployment (Container)
 on:
   push:
     branches:
-      - maingit branch -M main
+      - main
       - dev
 env:
   CACHE_KEY: node-deps
